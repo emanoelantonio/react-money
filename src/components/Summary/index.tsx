@@ -12,14 +12,14 @@ export const Summary = () => {
       <S.Card>
         <header>
           <span>Entradas</span>
-          <ArrowCircleUp size={32} color='#00b37e'/>
+          <ArrowCircleDown size={32} color='#00b37e'/>
         </header>
         <strong>{priceFormatter.format(summary.income)}</strong>
       </S.Card>
       <S.Card>
         <header>
           <span>Saídas</span>
-          <ArrowCircleDown size={32} color='#F75A68'/>
+          <ArrowCircleUp size={32} color='#F75A68'/>
         </header>
         <strong>{priceFormatter.format(summary.outcome)}</strong>
       </S.Card>
